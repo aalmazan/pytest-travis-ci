@@ -13,4 +13,4 @@ install:
 
 
 script:
-    - pytest
+    - cd travis_test && pytest

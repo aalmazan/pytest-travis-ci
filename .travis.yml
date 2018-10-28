@@ -3,7 +3,7 @@ sudo: false
 language: python
 env: 
     global:
-        - DJANGO_SETTINGS_MODULE='project.settings.settings_dev'    
+        - DJANGO_SETTINGS_MODULE='settings.settings_dev'
 
 python:
     - "2.7"
